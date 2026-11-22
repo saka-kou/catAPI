@@ -22,7 +22,7 @@ export default function App() {
       {cat && (
         <img src={cat.url} alt="猫" width="300" />
       )}
-      <button onClick={{ fetchCat }}>
+      <button onClick={fetchCat}>
         別の猫を見る
       </button>
     </div>
